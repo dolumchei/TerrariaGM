@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Notes",
+  "name":"Notes",
+  "parent":{
+    "name":"TerrariaGM",
+    "path":"TerrariaGM.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

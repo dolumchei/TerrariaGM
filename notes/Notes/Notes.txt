@@ -1,0 +1,37 @@
+CHANGE LOG:
+- ??:?? ?? EST, 2/??/2026
+-- Initial Work
+started conversion, i am writing this change log as i finished so i dont remember the time
+i do know i converted tile, dust, collision, recipe, and item
+then i did lighting, npc, and began player
+then finished player, main and worldgen. and now we are here.
+i did have the sounds & images in the project but ill likely have them loaded externally
+
+-  8:17 PM EST, 2/16/2026
+-- Finished Initial Source Conversion
+finished converting all of the source files to GML, this will not run and is not intended to for now
+most XNA classes will have to have to be reimplemented to work
+
+
+
+
+TO DO:
+- Xna classes
+-- rectangle
+-- vector
+-- color
+
+- Content
+-- Images (using collage?)
+-- Sounds (using audioExt?)
+
+- Other stuff
+-- im too lazy to put here
+
+
+
+
+GENERAL NOTES:
+i would add lua support because i can but apollo v3 doesnt work with the latest gm, i dont know why it just hard crashes
+i had some other thihng i was gonna type but i forgot i shouldve just put that first instead of the lua support god damn it
+nvm i rermember, im unsure if i wanna make a C# extension for base C# stuff like rand but ill probably just use another thing i have on another project

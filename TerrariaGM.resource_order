@@ -1,0 +1,19 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Terraria","order":1,"path":"folders/Terraria.yy",},
+    {"name":"Source","order":1,"path":"folders/Terraria/Source.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Notes","order":2,"path":"notes/Notes/Notes.yy",},
+    {"name":"Dust_cs","order":1,"path":"scripts/Dust_cs/Dust_cs.yy",},
+    {"name":"Item_cs","order":2,"path":"scripts/Item_cs/Item_cs.yy",},
+    {"name":"Lighting_cs","order":3,"path":"scripts/Lighting_cs/Lighting_cs.yy",},
+    {"name":"Main_cs","order":4,"path":"scripts/Main_cs/Main_cs.yy",},
+    {"name":"NPC_cs","order":5,"path":"scripts/NPC_cs/NPC_cs.yy",},
+    {"name":"Player_cs","order":6,"path":"scripts/Player_cs/Player_cs.yy",},
+    {"name":"Program_cs","order":3,"path":"scripts/Program_cs/Program_cs.yy",},
+    {"name":"Recipe_cs","order":7,"path":"scripts/Recipe_cs/Recipe_cs.yy",},
+    {"name":"Tile_cs","order":8,"path":"scripts/Tile_cs/Tile_cs.yy",},
+    {"name":"WorldGen_cs","order":9,"path":"scripts/WorldGen_cs/WorldGen_cs.yy",},
+  ],
+}

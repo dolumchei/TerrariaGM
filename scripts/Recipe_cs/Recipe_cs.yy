@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Recipe_cs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Recipe_cs",
+  "parent":{
+    "name":"Source",
+    "path":"folders/Terraria/Source.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

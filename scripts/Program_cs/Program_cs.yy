@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Program_cs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Program_cs",
+  "parent":{
+    "name":"Terraria",
+    "path":"folders/Terraria.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
