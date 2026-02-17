@@ -197,13 +197,13 @@
 		var num = Main.NpcTexture[type].Height / Main.NpcFrameCount[type];
 		var num2 = 0;
 		if (_aiAction == 0) {
-			num2 = _velocity.Y < 0
+			num2 = (((_velocity.Y < 0
 				? 2
-				: _velocity.Y > 0
+				: _velocity.Y > 0)
 					? 3
-					: _velocity.X != 0
+					: _velocity.X != 0)
 						? 1
-						: 0;
+						: 0);
 		} else if (_aiAction == 1) {
 			num2 = 4;
 		}

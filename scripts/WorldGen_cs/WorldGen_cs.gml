@@ -899,16 +899,16 @@
 
 	/* public override void */ OpenDoor = function(/* int */ i, /* int */ j, /* int */ direction) {
 		var num = 0;
-		num = Main.Tile[i, j - 1].frameY == 0
-		&& Main.Tile[i, j - 1].type == Main.Tile[i, j].type
+		num = ((((Main.Tile[i, j - 1].frameY == 0
+		&& Main.Tile[i, j - 1].type == Main.Tile[i, j].type)
 			? j - 1
 			: Main.Tile[i, j - 2].frameY == 0
-			&& Main.Tile[i, j - 2].type == Main.Tile[i, j].type
+			&& Main.Tile[i, j - 2].type == Main.Tile[i, j].type)
 				? j - 2
 				: Main.Tile[i, j + 1].frameY != 0
-				|| Main.Tile[i, j + 1].type != Main.Tile[i, j].type
+				|| Main.Tile[i, j + 1].type != Main.Tile[i, j].type)
 					? j
-					: j + 1;
+					: j + 1);
 		var num2 = i;
 		var num3 = 0;
 		var num4;

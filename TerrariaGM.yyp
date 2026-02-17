@@ -23,6 +23,7 @@
   "name":"TerrariaGM",
   "resources":[
     {"id":{"name":"Notes","path":"notes/Notes/Notes.yy",},},
+    {"id":{"name":"Room","path":"rooms/Room/Room.yy",},},
     {"id":{"name":"Collision_cs","path":"scripts/Collision_cs/Collision_cs.yy",},},
     {"id":{"name":"Dust_cs","path":"scripts/Dust_cs/Dust_cs.yy",},},
     {"id":{"name":"Item_cs","path":"scripts/Item_cs/Item_cs.yy",},},
@@ -37,7 +38,9 @@
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
-  "RoomOrderNodes":[],
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Room","path":"rooms/Room/Room.yy",},},
+  ],
   "templateType":null,
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
